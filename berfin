@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diyetisyen Berfin Baturalp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-image: url('https://www.lumosajans.com/wp-content/uploads/2020/06/diyetisyen-reklamlari.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+    }
+    header {
+      background-color: rgba(96, 233, 92, 0.95);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    h1, h2 {
+      color: #023047;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .contact-info p {
+      line-height: 1.8;
+    }
+    footer {
+      background-color: #8ecae6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .btn {
+      background-color: #219ebc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    .blog-post {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+    a {
+      color: #5ab856;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Diyetisyen Berfin Baturalp</h1>
+    <p>Sağlıklı Yaşam, Bilinçli Beslenme ile Başlar</p>
+  </header>
+
+  <section>
+    <h2>Hakkımda</h2>
+    <p>
+      Merhaba, ben Diyetisyen Berfin Baturalp. Beslenme ve diyetetik alanında uzmanlaştım ve sağlıklı yaşamın sürdürülebilir alışkanlıklarla mümkün olduğuna inanıyorum. Eğitim hayatım boyunca bilimsel temellere dayalı bilgilerle beslenme düzenini şekillendirme konusunda kendimi geliştirdim.
+    </p>
+    <p>
+      Danışanlarımın yaşam tarzlarına, sağlık durumlarına ve hedeflerine göre özel olarak hazırladığım beslenme planları ile onların fiziksel ve ruhsal açıdan daha iyi hissetmelerini amaçlıyorum. Sağlık bir bütündür ve doğru beslenme bunun temel taşıdır. Bu anlayışla yola çıkarak, her bireyin ihtiyacına özel çözümler üretmeyi kendime ilke edindim.
+    </p>
+    <p>
+      Aynı zamanda güncel bilimsel gelişmeleri yakından takip ederek beslenme alanında sürekli yenilenen bir bilgi birikimine sahibim. Gerek yüz yüze gerekse online diyet danışmanlığı hizmetimle her yerden ulaşılabilir ve etkili çözümler sunuyorum. Her bireyin farklı olduğunu ve bu farklılıkların başarıya giden yolda en önemli rehber olduğunu unutmadan danışanlarıma birebir ilgi gösteriyorum.
+    </p>
+    <p>
+      Sağlık yolculuğunuzda size rehberlik etmekten mutluluk duyarım.
+    </p>
+  </section>
+
+  <section>
+    <h2>Hizmetler</h2>
+    <ul>
+      <li>Kilo verme ve kilo alma programları</li>
+      <li>Hastalıklarda beslenme (diyabet, hipertansiyon, tiroit vb.)</li>
+      <li>Hamilelik ve emzirme dönemi beslenmesi</li>
+      <li>Çocuk ve ergen beslenmesi</li>
+      <li>Sporcu beslenmesi</li>
+      <li>Online diyet danışmanlığı</li>
+      <li>Kurumsal beslenme danışmanlığı</li>
+      <li>Detoks ve sağlıklı yaşam programları</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Galeri</h2>
+    <img src="https://www.lumosajans.com/wp-content/uploads/2020/06/diyetisyen-reklamlari.jpg" alt="Görsel 1">
+    <img src="https://3dduvarkagitlari.com/Content/images/2020/10/27/l/3dduvarkagitlari-46121204.jpg" alt="Görsel 2">
+    <img src="https://st5.depositphotos.com/4218696/73438/i/450/depositphotos_734380106-stock-photo-nutritionist-working-laptop-writing-diet.jpg" alt="Görsel 3">
+  </section>
+
+  <section>
+    <h2>Blog</h2>
+    <div class="blog-post">
+      <h3>Metabolizmayı Hızlandıran 5 İpucu</h3>
+      <p>Metabolizmanızı hızlandırmak istiyorsanız; kahvaltıyı atlamayın, yeterince su için, düzenli egzersiz yapın, yeterli protein alın ve yeterli uyuyun. Her bireyin metabolizması farklıdır, bu yüzden bu ipuçlarını kendi yaşam tarzınıza uyarlamak önemlidir.</p>
+    </div>
+    <div class="blog-post">
+      <h3>Ofis Çalışanları İçin Sağlıklı Atıştırmalıklar</h3>
+      <p>Gün boyu masa başında çalışmak zorunda kalanlar için sağlıklı atıştırmalıklar büyük önem taşır. Badem, yoğurt, meyve ve tam tahıllı barlar ideal seçeneklerdendir. Hem tok tutar hem de enerji verir.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Randevu Al</h2>
+    <form action="mailto:baturalpberfin.diyetetik@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Ad Soyad" placeholder="Adınız Soyadınız" required>
+      <input type="email" name="Email" placeholder="E-posta adresiniz" required>
+      <input type="tel" name="Telefon" placeholder="Telefon numaranız" required>
+      <textarea name="Mesaj" rows="5" placeholder="Randevu talebinizi yazınız..." required></textarea>
+      <button type="submit" class="btn">Gönder</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>İletişim</h2>
+    <div class="contact-info">
+      <p><strong>Telefon:</strong> <a href="tel:05070835748">0507 083 5748</a></p>
+      <p><strong>E-posta:</strong> <a href="mailto:baturalpberfin.diyetetik@gmail.com">baturalpberfin.diyetetik@gmail.com</a></p>
+      <p><strong>Adres:</strong><br>Göztepe Mah. Karanfil Cad.<br>Seferoğlu İş Merkezi Kat 2<br>Göztepe Meydan ATM Karşısı<br>Bağcılar / İstanbul</p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/diyetisyenberfinbaturalp" target="_blank">@diyetisyenberfinbaturalp</a></p>
+    </div>
+    
+    <h3>Konumumuz</h3>
+    <iframe
+      src="https://www.google.com/maps?q=Göztepe+Mah.+Karanfil+Cad.+Seferoğlu+İş+Merkezi+Kat+2+Göztepe+Meydan+ATM+Karşısı+Bağcılar+İstanbul&output=embed"
+      width="100%"
+      height="300"
+      style="border:0; border-radius: 12px; margin-top: 20px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+  
+
+  <section style="background-image: url('https://sevvaltirpan.com/wp-content/uploads/Screenshot_4-1-e1684593259377-768x620.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; padding: 60px 20px;">
+    <div style="background-color: rgba(255, 255, 255, 0.85); padding: 30px; border-radius: 12px; max-width: 1000px; margin: auto;">
+      <h2>Andulasyon Cihazı</h2>
+      <p>Andulasyon terapisi, titreşim ve kızılötesi ışık teknolojisini birleştiren modern bir fizyoterapi yöntemidir. Bu cihaz, kas gevşemesi, ağrıların hafifletilmesi, metabolizmanın hızlandırılması ve genel vücut rahatlamasını desteklemek amacıyla kullanılır.</p>
+      <p>Seanslar sırasında vücuda uygulanan ritmik titreşimler sayesinde kan dolaşımı artar, lenf sistemi harekete geçer ve bağışıklık sistemi desteklenir. Özellikle kronik ağrı yaşayanlar, spor yapanlar ya da detoks etkisi arayan bireyler için idealdir.</p>
+      <p>Danışanlarımızın ihtiyaçlarına uygun olarak planlanan andulasyon seansları, hem fiziksel hem de ruhsal rahatlama sunar. Daha fazla bilgi için bizimle iletişime geçebilirsiniz.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Diyetisyen Berfin Baturalp | Tüm Hakları Saklıdır.</p>
+  </footer>
+</body>
+</html>
+  
